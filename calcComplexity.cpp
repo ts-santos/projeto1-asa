@@ -4,9 +4,9 @@
 using namespace std;
 
 int main () {
-    int n,m, o;
-    scanf("%d %d\n", &n, &m);
-    o = n * (n/2) * (m-2) + 1;
+    int m, o;
+    scanf("%d\n", &m);
+    o = m*m - 1;
     vector<int> lista(o);
     cout << o << endl;
 
